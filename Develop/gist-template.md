@@ -7,7 +7,7 @@ Regular expressions are a sequence of characters that defines a search pattern f
 
 ## Summary
 
-I 
+I will be discussing the parts of a regular expression that is used to match hex values. Any precise color can be accurately described to a computer using the hexadecimal scheme, ensuring consistency and accuracy in an electronic display. A six-digit number preceded by the # symbol defines a color that is utilized in a website or computer software. This code is known as a hexadecimal color value.  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
 
@@ -26,6 +26,11 @@ I
 ## Regex Components
 
 ### Anchors
+
+Regular expressions give specific significance to anchors. They don't fit any of the characters. Instead, they align with a character's location before or after another:
+The ^ anchor lines up with the start of the text.
+The dollar sign ($) anchor corresponds to the end of the text.
+/<b>^<b>#?([a-f0-9]{6}|[a-f0-9]{3})<b>$<b>/
 
 ### Quantifiers
 
@@ -49,4 +54,5 @@ I
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hello my name is Abdullahi Nur. I'm a full-stack developer student looking to futher succeed in this field.
+Github: 
