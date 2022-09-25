@@ -1,10 +1,13 @@
-# Title (replace with your title)
+# Tutorial: Regex matching Hex value
 
-Introductory paragraph (replace this with your text)
+Regular expressions are a sequence of characters that defines a search pattern for text. It is also defined as a string of text that allows you to create patterns to help with managing, matching, and locating text.
+
+
+-Fun fact: regex come from the mathematical concept of regular sets.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I 
 
 ## Table of Contents
 
