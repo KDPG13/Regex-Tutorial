@@ -30,12 +30,12 @@ I will be discussing the parts of a regular expression that is used to match h
 Regular expressions give specific significance to anchors. They don't fit any of the characters. Instead, they align with a character's location before or after another:
 The ^ anchor lines up with the start of the text.
 The dollar sign ($) anchor corresponds to the end of the text.
-/<b>^<b>#?([a-f0-9]{6}|[a-f0-9]{3})<b>$<b>/
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ### Quantifiers
-
+Regex quantifiers indicate how many times a character should be matched against. The ",+,?,{}" characters found within regulr expressions are regarded as quantifiers. The ? character describes that an expression occurs once or not at all. The * character describes that an expression occurs zero or more times. The + charcter defines that the expresion occures one or more times. The {n} charcter means that the expression occurs n or more times times and so on and so forth. Looking at our hex value, the numbers {6} and {3} in our Hex Value regular expression indicate that the component preceding these quantifiers should have a length of 6 for {6} and 3 for {3}.
 ### OR Operator
-
+The | element in a regular expression defines the "or" operator.
 ### Character Classes
 
 ### Flags
