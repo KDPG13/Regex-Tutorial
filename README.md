@@ -50,7 +50,8 @@ You can choose one of the following regular expressions or you can choose one th
 
 You are required to submit the following for review:
 
-* The URL of the GitHub gist. Give the gist a unique name.
+* The URL of the GitHub gist : https://gist.github.com/KDPG13/0f1f14a008e08d084ca06d220fdd3841/revisions
+Repo link: https://github.com/KDPG13/Regex-Tutorial/
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
