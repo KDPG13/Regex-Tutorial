@@ -35,24 +35,16 @@ The dollar sign ($) anchor corresponds to the end of the text.
 ### Quantifiers
 Regex quantifiers indicate how many times a character should be matched against. The ",+,?,{}" characters found within regulr expressions are regarded as quantifiers. The ? character describes that an expression occurs once or not at all. The * character describes that an expression occurs zero or more times. The + charcter defines that the expresion occures one or more times. The {n} charcter means that the expression occurs n or more times times and so on and so forth. Looking at our hex value, the numbers {6} and {3} in our Hex Value regular expression indicate that the component preceding these quantifiers should have a length of 6 for {6} and 3 for {3}.
 ### OR Operator
-The | element in a regular expression defines the "or" operator.
+The | element in a regular expression defines the "or" operator. The or operator implies that it might be either of the components that we are separating with the |. When we look at our hex value, /^#?([a-f0-9]{6}  |  [a-f0-9]{3})$/, we see two compnents after the or operator. As a result, our hex value may either be 3 [a-f0-9]{3} or 6 characters ([a-f0-9]{6}.
 ### Character Classes
-
-### Flags
-
-### Grouping and Capturing
+A group of characters surrounded in square brackets is referred to as a character class in the context of regular expressions. Looking at our hex value, our character are onside brackets. There are also two character classes; [a-f0-9] and [a-f0-9]. A-F looks for letters, while 0-9 looks for digits 0 to 9.
 
 ### Bracket Expressions
-
+Brackets indicate a set of characters to match. Any individual character between the brackets will match, and you can also use a hyphen to define a set.
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+A greedy match will try to match the longest possible string while a lazy <?> match will try to mach the smallest possible string. In our expression we have a lazy match. /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Author
 
 Hello my name is Abdullahi Nur. I'm a full-stack developer student looking to futher succeed in this field.
-Github: 
+Github: https://github.com/KDPG13/
